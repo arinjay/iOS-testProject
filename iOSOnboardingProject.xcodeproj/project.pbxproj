@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		C7A81A3C2678E329000EC0A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A81A3B2678E329000EC0A1 /* AppDelegate.swift */; };
 		C7A81A3E2678E329000EC0A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A81A3D2678E329000EC0A1 /* SceneDelegate.swift */; };
-		C7A81A402678E329000EC0A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A81A3F2678E329000EC0A1 /* ViewController.swift */; };
+		C7A81A402678E329000EC0A1 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A81A3F2678E329000EC0A1 /* ListViewController.swift */; };
 		C7A81A432678E329000EC0A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A81A412678E329000EC0A1 /* Main.storyboard */; };
 		C7A81A452678E32B000EC0A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A81A442678E32B000EC0A1 /* Assets.xcassets */; };
 		C7A81A482678E32B000EC0A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A81A462678E32B000EC0A1 /* LaunchScreen.storyboard */; };
+		C7A81A512678E356000EC0A1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A81A502678E356000EC0A1 /* Router.swift */; };
+		C7A81A542678E391000EC0A1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A81A532678E391000EC0A1 /* Model.swift */; };
+		C7A81A572678E406000EC0A1 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A81A562678E406000EC0A1 /* Utilities.swift */; };
+		C7A81A602678EE96000EC0A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A81A5F2678EE96000EC0A1 /* HomeViewController.swift */; };
+		C7A81A652678F1E0000EC0A1 /* PersonDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A81A632678F1E0000EC0A1 /* PersonDetailsTableViewCell.swift */; };
+		C7A81A662678F1E0000EC0A1 /* PersonDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A81A642678F1E0000EC0A1 /* PersonDetailsTableViewCell.xib */; };
+		C7A81A6B2678F207000EC0A1 /* PersonDetailV2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A81A692678F207000EC0A1 /* PersonDetailV2TableViewCell.swift */; };
+		C7A81A6C2678F207000EC0A1 /* PersonDetailV2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A81A6A2678F207000EC0A1 /* PersonDetailV2TableViewCell.xib */; };
+		C7A81A6F2678F429000EC0A1 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A81A6E2678F429000EC0A1 /* Bindable.swift */; };
+		C7A81A72267905E6000EC0A1 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A81A71267905E6000EC0A1 /* UIImageView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C7A81A382678E329000EC0A1 /* iOSOnboardingProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSOnboardingProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A81A3B2678E329000EC0A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7A81A3D2678E329000EC0A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C7A81A3F2678E329000EC0A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7A81A3F2678E329000EC0A1 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		C7A81A422678E329000EC0A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7A81A442678E32B000EC0A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7A81A472678E32B000EC0A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7A81A492678E32B000EC0A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A81A502678E356000EC0A1 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		C7A81A532678E391000EC0A1 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C7A81A562678E406000EC0A1 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		C7A81A5F2678EE96000EC0A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C7A81A632678F1E0000EC0A1 /* PersonDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		C7A81A642678F1E0000EC0A1 /* PersonDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		C7A81A692678F207000EC0A1 /* PersonDetailV2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailV2TableViewCell.swift; sourceTree = "<group>"; };
+		C7A81A6A2678F207000EC0A1 /* PersonDetailV2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonDetailV2TableViewCell.xib; sourceTree = "<group>"; };
+		C7A81A6E2678F429000EC0A1 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		C7A81A71267905E6000EC0A1 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,65 @@
 		C7A81A3A2678E329000EC0A1 /* iOSOnboardingProject */ = {
 			isa = PBXGroup;
 			children = (
+				C7A81A7826790D32000EC0A1 /* HelperFiles */,
+				C7A81A7526790C9C000EC0A1 /* Extensions+Protocols */,
+				C7A81A622678F1BB000EC0A1 /* Cells */,
+				C7A81A592678EDB8000EC0A1 /* ViewController */,
 				C7A81A3B2678E329000EC0A1 /* AppDelegate.swift */,
 				C7A81A3D2678E329000EC0A1 /* SceneDelegate.swift */,
-				C7A81A3F2678E329000EC0A1 /* ViewController.swift */,
 				C7A81A412678E329000EC0A1 /* Main.storyboard */,
 				C7A81A442678E32B000EC0A1 /* Assets.xcassets */,
 				C7A81A462678E32B000EC0A1 /* LaunchScreen.storyboard */,
 				C7A81A492678E32B000EC0A1 /* Info.plist */,
+				C7A81A532678E391000EC0A1 /* Model.swift */,
+				C7A81A502678E356000EC0A1 /* Router.swift */,
+				C7A81A7426790C89000EC0A1 /* Backup */,
 			);
 			path = iOSOnboardingProject;
+			sourceTree = "<group>";
+		};
+		C7A81A592678EDB8000EC0A1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C7A81A3F2678E329000EC0A1 /* ListViewController.swift */,
+				C7A81A5F2678EE96000EC0A1 /* HomeViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C7A81A622678F1BB000EC0A1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C7A81A632678F1E0000EC0A1 /* PersonDetailsTableViewCell.swift */,
+				C7A81A642678F1E0000EC0A1 /* PersonDetailsTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C7A81A7426790C89000EC0A1 /* Backup */ = {
+			isa = PBXGroup;
+			children = (
+				C7A81A692678F207000EC0A1 /* PersonDetailV2TableViewCell.swift */,
+				C7A81A6A2678F207000EC0A1 /* PersonDetailV2TableViewCell.xib */,
+			);
+			path = Backup;
+			sourceTree = "<group>";
+		};
+		C7A81A7526790C9C000EC0A1 /* Extensions+Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C7A81A6E2678F429000EC0A1 /* Bindable.swift */,
+				C7A81A71267905E6000EC0A1 /* UIImageView+Extension.swift */,
+			);
+			path = "Extensions+Protocols";
+			sourceTree = "<group>";
+		};
+		C7A81A7826790D32000EC0A1 /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C7A81A562678E406000EC0A1 /* Utilities.swift */,
+			);
+			path = HelperFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +194,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A81A6C2678F207000EC0A1 /* PersonDetailV2TableViewCell.xib in Resources */,
 				C7A81A482678E32B000EC0A1 /* LaunchScreen.storyboard in Resources */,
 				C7A81A452678E32B000EC0A1 /* Assets.xcassets in Resources */,
 				C7A81A432678E329000EC0A1 /* Main.storyboard in Resources */,
+				C7A81A662678F1E0000EC0A1 /* PersonDetailsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +209,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7A81A402678E329000EC0A1 /* ViewController.swift in Sources */,
+				C7A81A6F2678F429000EC0A1 /* Bindable.swift in Sources */,
+				C7A81A572678E406000EC0A1 /* Utilities.swift in Sources */,
+				C7A81A542678E391000EC0A1 /* Model.swift in Sources */,
+				C7A81A402678E329000EC0A1 /* ListViewController.swift in Sources */,
+				C7A81A512678E356000EC0A1 /* Router.swift in Sources */,
 				C7A81A3C2678E329000EC0A1 /* AppDelegate.swift in Sources */,
+				C7A81A602678EE96000EC0A1 /* HomeViewController.swift in Sources */,
+				C7A81A72267905E6000EC0A1 /* UIImageView+Extension.swift in Sources */,
+				C7A81A652678F1E0000EC0A1 /* PersonDetailsTableViewCell.swift in Sources */,
+				C7A81A6B2678F207000EC0A1 /* PersonDetailV2TableViewCell.swift in Sources */,
 				C7A81A3E2678E329000EC0A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
